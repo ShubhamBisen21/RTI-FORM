@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { MainbodyComponent } from './mainbody/mainbody.component';
+import { RtiVivranComponent } from './rti-vivran/rti-vivran.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent,SidebarComponent, MainbodyComponent],
+  imports: [RouterOutlet, HeaderComponent,SidebarComponent, MainbodyComponent,RtiVivranComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
