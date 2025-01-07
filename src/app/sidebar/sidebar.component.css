@@ -1,0 +1,15 @@
+.sidebar-container{
+    margin: 0px;
+    width: 380px;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.sidebar-container a{
+    color: #707b7c;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+.nav-pills .nav-link.active{
+    color: #fff;
+    background-color: #aeb6bf;
+  }
